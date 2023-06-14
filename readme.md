@@ -21,11 +21,11 @@ pip install .
 from lawquery import Engine, list_documents
 
 # list of document paths
-document_path = list_documents()
-print(document_path)
+document_paths = list_documents()
+print(document_paths)
 
 # create engine
-engine = Engine(filepath=document_path)
+engine = Engine(filepath=document_paths[0])
 # print info of document
 print(engine)
 # print outline tree
