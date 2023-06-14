@@ -12,7 +12,14 @@ Current support documents:
 ```bash
 git clone https://github.com/Th1nhNg0/law-query
 cd law-query
-pip install .
+
+python -m venv .env
+source .env/bin/activate
+
+# make sure you are using the latest pip
+python -m pip install -U pip setuptools wheel
+
+pip install --no-build-isolation --editable .
 ```
 
 # Usage
