@@ -1,16 +1,15 @@
 from setuptools import setup
 
-with open("readme.md", "r") as fh:
-    long_description = fh.read()
 
 setup(
     name="lawquery",
     version="0.0.1",
-    description="Query the law",
+    description="Query Vietnamese law documents",
     package_dir={"": "src"},
     package_data={"": ["*.json.gz"]},
     include_package_data=True,
-    long_description=long_description,
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
     url="https://github.com/Th1nhNg0/law-query",
     author="Th1nhNg0",
     author_email="thinhngow@gmail.com",
