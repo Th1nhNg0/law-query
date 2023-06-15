@@ -63,7 +63,7 @@ results = engine.query_by_paths([
     },
     {
         'node_type': 'điều',
-        'node_id': '6'
+        'node_id': '50'
     }
 ])
 
