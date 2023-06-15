@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="lawquery",
-    version="0.0.1",
+    version="0.0.2",
     description="Query Vietnamese law documents",
     package_dir={"": "src"},
     package_data={"": ["*.json.gz"]},
