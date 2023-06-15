@@ -9,6 +9,14 @@ Current support documents:
 
 # Installation
 
+Using pip:
+
+```bash
+pip install lawquery
+```
+
+Install local:
+
 ```bash
 git clone https://github.com/Th1nhNg0/law-query
 cd law-query
