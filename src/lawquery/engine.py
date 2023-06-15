@@ -101,7 +101,7 @@ class Engine:
         for child in node.children:
             self._traverse(child)
 
-    def query_by_paths(self, node_path: list[dict]) -> Node:
+    def query_by_path(self, node_path: list[dict]) -> Node:
         nodes = []
         for path in node_path:
             node_type = path['node_type'] if 'node_type' in path else None
