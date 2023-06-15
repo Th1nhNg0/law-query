@@ -48,7 +48,7 @@ results = engine.query( name='hôn nhân')
 
 # query by path: from parent to child
 # param is list of dict, the parameter of engine.query function
-results = engine.query_by_path([
+results = engine.query_by_paths([
     {
         'node_type': 'phần',
         'node_id': 'hai'
