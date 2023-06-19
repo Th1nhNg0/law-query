@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: LawQuery
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Thinh
+    family-names: Ngo
+    email: thinhngow@gmail.com
+    orcid: 'https://orcid.org/0009-0003-7516-8844'
+repository-code: 'https://github.com/Th1nhNg0/law-query'
+abstract: >-
+  a Python package that helps users query Vietnamese law
+  documents
+keywords:
+  - python
+  - retrieval
+  - legal document
+license: MIT
